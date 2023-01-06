@@ -145,22 +145,6 @@ def printResult():
     print("profit",maxProfit)
     print("time: ",algoritmTime*1000,"ms")
 
-
-# weights = [14,50,43,67,83,23,35,67,39,48]
-# values = [5,8,15,72,42,57,54,87,21,62]
-# maxWeight = 194
-# numberOfBoxes = 10
-
-# weights = [95,4,60,32,23,72,80,62,65,46]
-# values = [55,10,47,5,4,50,8,61,85,87]
-# maxWeight = 270
-# numberOfBoxes = 10
-
-# weights = [9,1,16,2,16,4,8,17,19,20]
-# values = [10,3,1,4,3,10,8,9,0,4]
-# maxWeight = 40
-# numberOfBoxes = 10
-
 weights, values, maxWeight , numberOfBoxes= createBoxes()
 myKnapsackGenetic = KnapsackGenetic(numberOfBoxes, maxWeight, weights, values)
 
